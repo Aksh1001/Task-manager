@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <img class="decorative-sun" src="./sun.png" alt="Sun">
+
+  <header>
+    <h1>Task Manager</h1>
+  </header>
+
+  <main>
+    <div class="task-form">
+      <input id="task" type="text" placeholder="Enter task..." />
+      <select id="priority">
+        <option value="Top">Top Priority</option>
+        <option value="Middle">Medium Priority</option>
+        <option value="Low">Low Priority</option>
+      </select>
+      <input id="deadline" type="date" />
+      <button id="add-task">Add Task</button>
+    </div>
+    <div id="task-list" class="task-list"></div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
